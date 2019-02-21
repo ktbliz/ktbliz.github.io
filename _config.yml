@@ -1,11 +1,11 @@
 # Site settings
 author: Katie Blizzard
-title: 
+title: KB x Coding 
 header-img: img/home-bg.png
 email: kblizzard11@gmail.com
 copyright_name: Katie Blizzard
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Explorations in Coding (feat. Personal and Professional Interests)
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  ktbliz
