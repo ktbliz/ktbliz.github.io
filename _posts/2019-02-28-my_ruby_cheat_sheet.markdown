@@ -1,32 +1,48 @@
 ---
 layout: post
 title:      "My Ruby Cheat Sheet "
-date:       2019-02-28 21:05:28 +0000
+date:       2019-02-28 16:05:29 -0500
 permalink:  my_ruby_cheat_sheet
 ---
 
 
 Even though the internet is the ultimate cheat sheet, I've found it really helpful to make my own cheat sheet as I learn Ruby so that I can quickly remind myself of the range of things I've learned how to do. 
 
-My cheat sheet just covers Ruby concepts/techniques at a high level (minimal explanations), so that when I'm trying to solve a problem I can glance through and locate potential solutions/approaches. I keep my full cheat sheet in a One Note document that has grown quite long, but for my own use -- and hopefully others' use as well - I wanted to try to condense it further. Here goes! 
+My cheat sheet just covers Ruby concepts at a high level (akak: has very minimal explanations), so that when I'm trying to solve a problem I can glance through and locate potential solutions/approaches. I keep my full cheat sheet in a One Note document that has grown quite long, but for my own use - and hopefully others' use as well - I wanted to try to condense it further. Here goes! 
 
-Note: I will try to update this cheat sheet as the course goes along but for now it just covers the first two weeks of material.
+Note: I will try to update this cheat sheet as the course goes along, but for now it just covers the first couple weeks of material.
+
 
 
 ## Ruby Cheat Sheet 
 
 
-To run a Ruby program:   ruby file_name
+### Basics
 
-Comment out:   #
+To run a Ruby program:  
+```ruby <file_name>```
+
+Comment:   #
+
 
 ### Variables
 
-* Variable assignment: variable_name = variable_value
-* camel_case is the naming convention
-* Local variable names start with a lowercase letter
-* Global variable names start with a $
-* Constant names start with an uppercase letter
+Variable assignment: variable_name = variable_value
+camel_case is the naming convention
+
+#### Variable Types
+Local variables: Names start with a lowercase letter
+
+`my_variable`
+
+Global variables: Names start with a $
+
+`$my_variable`
+
+Constants: Names start with an uppercase letter
+
+`My_variable`
+
 
 ### Methods
 
