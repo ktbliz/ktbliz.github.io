@@ -29,7 +29,7 @@ Comment:   #
 To enter Interactive Ruby (IRB) shell, type: irb 
 
 puts 
-* Adds a new line after ouput
+* Adds a new line after output
 
 prints 
 * Does not add a new line after output
@@ -37,16 +37,6 @@ prints
 return
 
 require relative 
-
-class
-
-* `my_variable.class`
-
-object_id
-
-Add-and-assignment: +=
-
-Subtract-and-assignment: -=
 
 gets
  
@@ -73,6 +63,15 @@ sleep (default unit is seconds)
 * `sleep(4.minutes)`
 * `sleep(0.5)`
 
+class
+
+* `my_variable.class`
+
+object_id
+
+Add-and-assignment: +=
+
+Subtract-and-assignment: -=
 
 
 ## Variables
@@ -390,12 +389,12 @@ puts" Hey it's not 2019 unless Time.now.year == 2019
 
 ```
 case value_or_variable_to_test
-   when condition 1
-	    action1
-	when condition2
-	   action2
-	when condition3
-	   action3
+  when condition 1
+     action1
+  when condition2
+     action2
+  when condition3
+     action3
 end
 
 #note that case statments use === to evaluate
@@ -442,8 +441,8 @@ end
 counter = 0
 loop do
    counter += 1
-	 puts "Hi"
-	 break if counter >= 10
+   puts "Hi"
+   break if counter >= 10
 end
 #note that the loop keyword will make an infinite loop if the break keyword isn't added in
 ```
@@ -454,7 +453,7 @@ end
 counter = 0
 while counter <= 20
    counter += 1
-	 puts "The counter is #{counter}"
+   puts "The counter is #{counter}"
 end 
 ```
 
@@ -464,7 +463,7 @@ end
 counter = 0
 until counter == 21
    counter += 1
-	 puts "The counter is #{counter}"
+   puts "The counter is #{counter}"
 end 
 ```
 
