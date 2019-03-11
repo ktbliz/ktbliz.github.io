@@ -15,10 +15,10 @@ Note: I will try to update this cheat sheet as the course goes along, but for no
 
 
 
-## Ruby Cheat Sheet 
+# Ruby Cheat Sheet 
 
 
-### Basics
+## Basics
 
 To run a Ruby program:  
 
@@ -57,7 +57,8 @@ gets.strip
 * Removes extra line that comes with the gets, plus any white space
 
 
-### Miscellaneous
+
+## Miscellaneous
 
 Time.now
 
@@ -73,7 +74,8 @@ sleep (default unit is seconds)
 * `sleep(0.5)`
 
 
-### Variables
+
+## Variables
 
 Variable assignment: 
 
@@ -81,7 +83,7 @@ Variable assignment:
 
 camel_case is the naming convention
 
-#### Variable Types
+### Variable Types
 
 Local variables: Names start with a lowercase letter
 
@@ -96,7 +98,8 @@ Constants: Names start with an uppercase letter
 `My_variable`
 
 
-### Methods
+
+## Methods
 
 To define a method: 
 
@@ -107,7 +110,8 @@ end
 ```
 
 
-### Strings 
+
+## Strings 
 
 Literal constructor: 
 
@@ -121,7 +125,7 @@ Alternative interpolation (use with single and double quotes):
 
 `'Beginning of string' + variable_name + 'end of string.' `
 
-#### Methods for Strings
+### Methods for Strings
 
 NOTE: Unless otherwise noted, call these methods on strings using dot notation: 
 
@@ -162,13 +166,14 @@ Slicing a string with [ ]
 to_i   
 
 
-### Numbers
+
+## Numbers
 
 Fixnums: integers
 
 Floats: decimal numbers
 
-#### Methods for Numbers
+### Methods for Numbers
  
 NOTE: Unless otherwise noted, call these methods on numbers using dot notation: 
 
@@ -185,7 +190,7 @@ floor
  
  odd? 
 
-#### Math in Ruby 
+### Math in Ruby 
  
 Addition, subtraction, multiplication, division: 
 
@@ -221,7 +226,8 @@ Absolute value:
 `-7.abs`
 
 
-### Booleans
+
+## Booleans
 
 Not: !
 
@@ -246,13 +252,16 @@ Greater than: >
 Greater than or equal to: >=
 
 
-### Arrays
 
-Literal constructor: my_array = [item1, item2, item3]
+## Arrays
+
+Literal constructor: 
+
+`my_array = [item1, item2, item3]`
 
 Arrays are indexed starting at 0, the first element has an index of 0, the second element has an index of 1, etc.
 
-#### Basic Methods for Arrays
+### Basic Methods for Arrays
 
 NOTE: Unless otherwise noted, call these methods on arrays using dot notation: 
 
@@ -263,6 +272,10 @@ length
 
 size
 
+inspect
+* Returns a string representation of the array
+* `puts my_array.inspect`
+
 sort
 
 shuffle
@@ -270,8 +283,8 @@ shuffle
 
 reverse
 
-<< 
-* The shovel method, adds an item to the end of an array
+Shovel method: << 
+* Adds an item to the end of an array
 * `array_name << "new item"`
 
 push( )
@@ -296,8 +309,8 @@ delete(element)
 * Deletes all instances of the element specified in parentheses
 
 Retrieving elements from an array with bracket notation [ ]
-* Retrieve the fourth element: my_array[3]
-* Retrieve the last element: my_array[-1]
+* Retrieve the fourth element: `my_array[3]`
+* Retrieve the last element: `my_array[-1]`
 
 first
 
@@ -308,17 +321,30 @@ index( )
 
 include?( )
 
+Slicing an array:
+* my_array[0..10]  
+* my_array[index, length]
 
 
+### More Array Methods 
 
-### Symbols
+uniq
+
+flatten
+
+count
+
+
+## Symbols
 
 Denoted with a colon in front of the name:
 
 `:my_symbol`
 
 
-### Ranges
+
+
+## Ranges
 
 Two dots: Includes the last number
 
@@ -329,7 +355,9 @@ Three dots: Exlcudes the last number
 `(100...200)`
 
 
-### Conditionals
+
+
+## Conditionals
 
 1) if, elsif, else
 
@@ -374,7 +402,9 @@ end
 ```
 
 
-### Blocks 
+
+
+## Blocks 
 
 Two types of syntax for blocks:
 
@@ -395,7 +425,8 @@ end
 ```
 
 
-### Looping
+
+## Looping
 
 1) times
 
@@ -450,9 +481,12 @@ end
 ```
 
 
-### Hashes
 
-Literal constructor: my_hash = { }
+## Hashes
+
+Literal constructor: 
+
+`my_hash = { }`
  
 
 
