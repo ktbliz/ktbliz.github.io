@@ -116,7 +116,7 @@ Finally, as a programming student, a few reflections on the learning experience 
       leap_test = true
     end 
     
-    return true if m && d && y && test31 && feb_test && leap_test
+    true if m && d && y && test31 && feb_test && leap_test
     
   end 
 
